@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <title>formdky</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>yêu cầu tư vấn</h2>
+
+    <form>
+      <h3 class="boder">Thông tin khách hàng</h3>
+
+      <label>Họ và tên</label>
+      <input type="text" placeholder="Nhập họ và tên" maxlength="100" />
+
+      <label>Số điện thoại</label>
+      <input type="text" placeholder="Nhập số điện thoại" maxlength="10" />
+
+      <div class="row">
+        <div class="col">
+          <label>Thành phố</label>
+          <select>
+            <option>Chọn thành phố</option>
+            <option>Hà Nội</option>
+            <option>TP Hồ Chí Minh</option>
+          </select>
+        </div>
+
+        <div class="col">
+          <label>Phường</label>
+          <select>
+            <option>Chọn Phường</option>
+            <option>phường hoàn kiếm</option>
+            <option>phường tây mỗ</option>
+            <option>phường nam từ liêm</option>
+            <option>phường bắc từ liêm</option>
+            <option>phường đại mỗ</option>
+          </select>
+        </div>
+      </div>
+
+      <label>Giới tính</label>
+      <div class="radio-group">
+        <label><input type="radio" name="gender" /> Nam</label>
+        <label><input type="radio" name="gender" /> Nữ</label>
+      </div>
+
+      <h3>Sản phẩm cần tư vấn</h3>
+
+      <div class="checkbox-group">
+        <label><input type="checkbox" checked /> Thẻ tín dụng</label>
+        <label><input type="checkbox" checked /> Mua trước trả sau</label>
+        <label><input type="checkbox" checked /> Vay linh Hoạt</label>
+        <label><input type="checkbox" checked /> Tài khoản M-Pro</label>
+        <label><input type="checkbox" checked /> Tiền nhanh</label>
+      </div>
+
+      <label>Chúng tôi có thể hỗ trợ gì cho bạn?</label>
+      <textarea placeholder="Nhập thông tin"></textarea>
+
+      <button type="submit" class="btn">Gửi yêu cầu</button>
+    </form>
+  </body>
+</html>
