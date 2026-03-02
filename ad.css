@@ -69,12 +69,7 @@ ul{
     margin-top: 10px;
     margin-left: 200px;
 }
-/*sssss
-.container{
-    display:flex;
-    gap:30px;
-    padding:40px;
-}
+
 
 /* Sidebar */
 .sidebar{
@@ -85,6 +80,7 @@ ul{
     overflow:hidden;
     margin-left: 250px;
     margin-top: 20px;
+    height: 300px;
 }
 
 /* User */
@@ -116,8 +112,7 @@ ul{
 }
 
 .menu li.active{
-    background:#fdf1ea;
-    color:#ff6a00;
+
     font-weight:500;
 }
 
@@ -125,8 +120,8 @@ ul{
 .content{
     flex-shrink: 1;
     position: relative;
-    left: 520px;
-    bottom: 250px;
+    left: 550px;
+    bottom: 300px;
     height: 10px;
     width: 1000px;
 }
