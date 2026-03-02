@@ -1,0 +1,165 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px ;
+  background: rgb(203, 176, 176);
+  height: 50px;
+  list-style: none;
+}
+.mega-menu{
+    display: flex;
+    gap:20px;
+}
+img{
+    width: 200px;
+    height: 70px;
+    margin-left: auto;
+}
+.text1{
+    border: 2px solid orange;
+    padding:0 5px 0 5px;
+    border-radius: 5px;
+    box-sizing: content-box;
+}
+ul{
+    position: relative;
+    right: 10px;
+}
+.user-button{
+    border-left: 2px solid black ;
+}
+.user-menu {
+    position: relative; 
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;      
+    position: absolute; 
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    list-style: none;
+    padding: 10px 0;
+    z-index: 50;         
+}
+
+
+.user-menu:hover .dropdown-content {
+    display: block;     
+}
+
+
+.dropdown-content li {
+    padding: 12px 16px;
+    cursor: pointer;
+}
+
+.dropdown-content li:hover {
+    background-color: #f1f1f1;
+}
+.text{
+    color: orange;
+    
+}
+.item{
+    margin-top: 10px;
+    margin-left: 200px;
+}
+/*sssss
+.container{
+    display:flex;
+    gap:30px;
+    padding:40px;
+}
+
+/* Sidebar */
+.sidebar{
+    width:260px;
+    background:#fff;
+    border-radius:16px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+    overflow:hidden;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+/* User */
+.user{
+    padding:18px 20px;
+    font-weight:600;
+    background:#f5f5f5;
+    border-bottom:1px solid #eee;
+}
+
+/* Menu */
+.menu{
+    list-style:none;
+}
+
+.menu li{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:16px 20px;
+    cursor:pointer;
+    color:#555;
+    transition:0.3s;
+}
+
+.menu li:hover{
+    background:#fdf1ea;
+    color:#ff6a00;
+}
+
+.menu li.active{
+    background:#fdf1ea;
+    color:#ff6a00;
+    font-weight:500;
+}
+
+/* Content */
+.content{
+    flex-shrink: 1;
+    position: relative;
+    left: 520px;
+    bottom: 250px;
+    height: 10px;
+    width: 1000px;
+}
+
+/* Card */
+.card{
+    background:#fff;
+    border-radius:16px;
+    padding:25px 30px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+.card h2{
+    margin-bottom:10px;
+    font-size:20px;
+}
+
+/* Info rows */
+.info-row{
+    display:flex;
+    padding:12px 0;
+    border-bottom:1px solid #eee;
+}
+
+.info-row:last-child{
+    border-bottom:none;
+}
+
+.label{
+    width:200px;
+    color:#666;
+}
+
+.value{
+    font-weight:500;
+}
