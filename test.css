@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  background: white;
+} */
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  background: rgb(227, 160, 36);
+}
+
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+nav li {
+  position: relative;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+/* MEGA MENU */
+.mega-menu {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 650px;
+  background: white;
+  display: flex;
+  border-radius: 14px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  opacity: 0;
+  visibility: hidden;
+  transition: 3s;
+}
+
+.mega:hover .mega-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mega-left {
+  width: 40%;
+  background: #f3f4f6;
+  padding: 20px;
+  border-radius: 14px 0 0 14px;
+  transition: 6s;
+}
+
+.mega-left div {
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  
+  
+}
+
+.mega-left div:hover {
+  background: white;
+}
+
+.mega-right {
+  width: 60%;
+  padding: 20px;
+  gap: 5px;
+}
+
+.mega-right p {
+  margin-bottom: 12px;
+  font-size: 14px;
+
+}
+
+.mega-right p:hover {
+  color: #ff5c00;
+}
+
+.item {
+  color: rgb(227, 173, 71);
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+}
+ a{
+   text-decoration: none !important;
+
+}
+.a1{
+  color: black;
+}
+.item:hover{
+  background: orange;
+  color: black;
+}
+img {
+  font-size: 30px;
+  height: 100px;
+}
+#a1{
+  text-decoration: dotted !important;
+}
+
+
+/* phan section */
+.products-section{
+    width:85%;
+    margin:80px auto;
+}
+
+.section-title{
+    text-align:center;
+    font-size:28px;
+    font-weight:700;
+    margin-bottom:50px;
+}
+
+.products-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:35px;
+}
+
+.product-card{
+    background:#ffffff;
+    border-radius:20px;
+    overflow: visible;
+    box-shadow:0 15px 35px rgba(0,0,0,0.05);
+    transition:0.3s;
+}
+
+.product-card:hover{
+    transform:translatey(-15px);
+    box-shadow:0 25px 45px rgba(0,0,0,0.08);
+}
+
+.product-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.product-content{
+    padding:25px;
+}
+
+.product-content h3{
+    font-size:18px;
+    font-weight:600;
+    margin-bottom:10px;
+}
+
+.product-content p{
+    font-size:14px;
+    color:#555;
+    margin-bottom:20px;
+    line-height:1.6;
+}
+
+.product-content a{
+    text-decoration:none;
+    color:#ff5c00;
+    font-weight:600;
+    transition:0.2s;
+}
+
+.product-content a:hover{
+    letter-spacing:1px;
+}
